@@ -2,7 +2,7 @@
 
 Pure Go language bindings for Apache Mesos, under development.
 As with other pure implementations, mesos-go uses the HTTP wire protocol to communicate directly with a running Mesos master and its slave instances.
-One of the objectives of this project is to provide an idiomatic Go API that makes it super easy to create Mesos frameworks using Go. 
+One of the objectives of this project is to provide an idiomatic Go API that makes it super easy to create Mesos frameworks using Go.
 
 [![Build Status](https://travis-ci.org/mesos/mesos-go.svg)](https://travis-ci.org/mesos/mesos-go)
 [![GoDoc](https://godoc.org/github.com/mesos/mesos-go?status.png)](https://godoc.org/github.com/mesos/mesos-go)
@@ -31,7 +31,6 @@ The Mesos v0 API version of the bindings, located in `api/v0`, are more mature b
 - Apache Mesos 1.x; http://mesos.apache.org/downloads/
 - protoc compiler; https://github.com/google/protobuf/releases
     - v3.3.x is tested by CI and should be used for code generation
-- `govendor`; https://github.com/kardianos/govendor
 
 ## Installing
 Users of this library are encouraged to vendor it. API stability isn't guaranteed at this stage.
